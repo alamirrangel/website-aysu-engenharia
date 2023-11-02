@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aysu - Engenharia & Energia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">AYSU - Engenharia & Energia</h1>
+            <button class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold ">
+                        <a href="#sobre-a-empresa" class="nav-link">
+                            <i class="bi bi-buildings me-1"></i>
+                            Sobre a Empresa</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link ">
+                            <i class="bi bi-hammer me-1"></i>
+                            Serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#portifolio" class="nav-link ">
+                            <i class="bi bi-bricks me-1"></i>
+                            Portifólio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpg" alt="Projeto notebook">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" alt="Instalação telhado de empresa">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" alt="Usina fotovoltaica">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide4.jpg" alt="Paineis no campo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide5.jpg" alt="Fundação de contruçao">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/empresa.png" class="d-block w-100 rounded" alt="Foto do Logotipo da Empresa">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a Empresa</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quaerat laboriosam cum illum odio earum eaque deserunt eligendi nobis rem ut magni ratione, vitae sunt maxime accusamus in. Amet, accusantium!
+                            </p>
+                            <h3 class="section-title">Nossos <span class="text-colored">Serviços</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore deleniti eius cum, dolore reiciendis iste, vel aliquam sint consequuntur qui accusantium magni ipsum atque. Odit perspiciatis est eligendi inventore!
+                            </p>
+                            <ul>
+                                <li>Projeto Estrutural</li>
+                                <li>Projeto arquitetonico</li>
+                                <li>Instalação de Paineis Solares</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">Serviços</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/servicos/estrutural.jpg" alt="" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Projeto Estrutural
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis in aliquam debitis corporis architecto laudantium rerum ducimus ex est deserunt, quis provident pariatur fuga libero at magnam omnis inventore
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/arquitetonico.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Projeto Arquitetonico
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis in aliquam debitis corporis architecto laudantium rerum ducimus ex est deserunt, quis provident pariatur fuga libero at magnam omnis inventore
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/instalacao.jpg" alt="" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Instalações
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis in aliquam debitis corporis architecto laudantium rerum ducimus ex est deserunt, quis provident pariatur fuga libero at magnam omnis inventore.                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portifolio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">Portifólio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-portifolio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-1" class=" fw-bold text-start nav-link text-colored active">Projeto 1</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-2" class=" fw-bold text-start nav-link text-colored">Projeto 2</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-3" class=" fw-bold text-start nav-link text-colored">Projeto 3</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-4" class=" fw-bold text-start nav-link text-colored">Projeto 4</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-5" class=" fw-bold text-start nav-link text-colored">Projeto 5</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="projeto-1">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-1/projeto1.jpg" alt="Projeto 1"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="tab-pane" id="projeto-2">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-2/projeto2.jpg" alt="Projeto 2"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-2/projeto2.jpg" alt="Projeto 2"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-2/projeto2.jpg" alt="Projeto 2"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="projeto-3">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-3/projeto3.jpg" alt="Projeto 3"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-3/projeto3.jpg" alt="Projeto 3"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-3/projeto3.jpg" alt="Projeto 3"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="projeto-4">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-4/projeto4.jpg" alt="Projeto 4"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-4/projeto4.jpg" alt="Projeto 4"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-4/projeto4.jpg" alt="Projeto 4"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="projeto-5">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-5/projeto5.jpg" alt="Projeto 5"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-5/projeto5.jpg" alt="Projeto 5"/>
+                                        <h5 class="text-colored fw-bold mt-2">Projeto 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/portifolio/projeto-5/projeto5.jpg" alt="Projeto 5"/>
+                                        <h5 class="text-colored fw-bold">Projeto 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4" >
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 123, Bairro Campo Grande - Rio de Janeiro - RJ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
